@@ -41,9 +41,9 @@
   ============================-->
   <header id="header">
     <div class="container">
-
+    <h1><a href="#" class="scrollto">Register</a></h1>
       <div id="logo" class="pull-left">
-        <!-- <h1><a href="#intro" class="scrollto">Avilon</a></h1> -->
+        
         <!-- Uncomment below if you prefer to use an image logo -->
         <style>
           img.logo {
@@ -51,7 +51,7 @@
               width: auto;
           }
           </style>
-        <a href="#intro"><img class="logo" src="img/logo.png" alt="" /></a>
+        <!-- <a href="#intro"><img class="logo" src="img/logo.png" alt="" /></a> -->
       </div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
@@ -62,34 +62,68 @@
     </div>
   </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
+ <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <br>
+        <br>
+        <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Register</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
 
-    <div class="intro-text">
-      <h2>Eamal</h2>
-      <p>Kejar target amalan mu dibulan ramadhan tahun ini</p>
-      <a href="#about" class="btn-get-started scrollto">Register</a>
-    </div>
+        <br><br>
+        <div class="row wow fadeInUp">
 
-    <div class="product-screens">
+          <div class="col-lg-4 col-md-8">
+            
+          </div>
 
-      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-        <img src="img/product-screen-1.png" alt="">
+          <div class="col-lg-8 col-md-4">
+            <div class="info">
+              
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>Jika mengalami kesulitan atau ingin mengirim masukan hubungi: <br> +62 89656344581</p>
+              </div>
+
+            </div>
+          </div>
+
+          
+
+        </div>
+
       </div>
-
-      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-        <img src="img/product-screen-2.png" alt="">
-      </div>
-
-      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-        <img src="img/product-screen-3.png" alt="">
-      </div>
-
-    </div>
-
-  </section><!-- #intro -->
+    </section><!-- #contact -->
 
  
 
