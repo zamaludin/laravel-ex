@@ -1,6 +1,9 @@
-/vendor
 /node_modules
 /public/storage
-Homestead.yaml
+/storage/*.key
+!/vendor
+/vendor/*
+!/vendor/crocodicstudio
+/.idea
 Homestead.json
-.env
+Homestead.yaml
